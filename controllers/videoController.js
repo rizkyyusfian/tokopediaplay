@@ -1,19 +1,51 @@
-//make video controller
-
-// Path: tokopediaplay/controllers/videoController.js
-const {getVideoList} = require('../services/videoServices.js');
+const {getVideoListService, getProductListService, getCommentListService, addCommentService} = require('../services/videoServices.js');
 
 
 // get video function from service
+
 async function getVideo(req, res) {
     try {
-        const videoList = await getVideoList();
+        const videoList = await getVideoListService();
         res.status(200).json(videoList);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+};
+
+// get product function from service based on video id
+async function getProduct(req, res) {
+    try {
+        const videoId = req.params.videoId;
+        const productList = await getProductListService(videoId);
+        res.status(200).json(productList);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+};
+
+// get comment function from service based on video id
+async function getComment(req, res) {
+    try {
+        const videoId = req.params.videoId;
+        const commentList = await getCommentListService(videoId);
+        res.status(200).json(commentList);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+};
+
+// add comment function from service based on video id
+async function addComment(req, res) {
+    try {
+        const videoId = req.params.videoId;
+        const { name, comment } = req.body;
+        const commentList = await addCommentService(videoId, name, comment);
+        res.status(201).json("Comment Added");
     } catch (error) {
         res.status(400).json({ error: error.message });
     }
 };
 
-module.exports = { getVideo };
+module.exports = { getVideo, getProduct, getComment, addComment };
 
 
