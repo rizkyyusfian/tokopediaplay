@@ -1,8 +1,7 @@
 const {getVideoListService, getProductListService, getCommentListService, addCommentService} = require('../services/videoServices.js');
 
 
-// get video function from service
-
+// Get all video list
 async function getVideo(req, res) {
     try {
         const videoList = await getVideoListService();
@@ -12,7 +11,7 @@ async function getVideo(req, res) {
     }
 };
 
-// get product function from service based on video id
+// Get all product list based on video id
 async function getProduct(req, res) {
     try {
         const videoId = req.params.videoId;
@@ -23,7 +22,7 @@ async function getProduct(req, res) {
     }
 };
 
-// get comment function from service based on video id
+// Get all comment list based on video id
 async function getComment(req, res) {
     try {
         const videoId = req.params.videoId;
@@ -34,7 +33,7 @@ async function getComment(req, res) {
     }
 };
 
-// add comment function from service based on video id
+// Add comment based on video id
 async function addComment(req, res) {
     try {
         const videoId = req.params.videoId;
@@ -47,5 +46,3 @@ async function addComment(req, res) {
 };
 
 module.exports = { getVideo, getProduct, getComment, addComment };
-
-
