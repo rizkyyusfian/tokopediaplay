@@ -7,43 +7,50 @@ const videoSchema = new Schema({
         type: String,
         // required: true,
     },
-    urlImageThumbnail: {
+    ImageThumbnailUrl: {
         type: String,
         // required: true,
     },
-    productList: {
-        type: [
-            {
-                name: {
-                    type: String,
-                    // required: true,
-                },
-                price: {
-                    type: Number,
-                    // required: true,
-                },
-                link: {
-                    type: String,
-                    // required: true,
-                },
-            },
-        ],
-        required: true,
+    VideoUrl: {
+        type: String,
+        // required: true,
     },
-    commentList: {
-        type: [
-            {
-                name: {
-                    type: String,
-                    required: true,
-                },
-                comment: {
-                    type: String,
-                    required: true,
-                },
-            }, { timestamps: true}
-        ],
-    },
+    productList: [
+        {
+            type: new Schema(
+                {
+                    name: {
+                        type: String,
+                        // required: true,
+                    },
+                    price: {
+                        type: Number,
+                        // required: true,
+                    },
+                    link: {
+                        type: String,
+                        // required: true,
+                    },
+                }, { timestamps: true},
+            ),    
+        },
+    ],
+    commentList: [
+        {
+            type: new Schema(
+                {
+                    userName: {
+                        type: String,
+                        required: true,
+                    },
+                    comment: {
+                        type: String,
+                        required: true,
+                    },
+                }, { timestamps: true},
+            ),
+        },
+    ],
 }, { timestamps: true});
 
 module.exports = mongoose.model('Video', videoSchema);
