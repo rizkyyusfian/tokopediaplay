@@ -5,43 +5,44 @@ const { Schema } = mongoose;
 const videoSchema = new Schema({
     title: {
         type: String,
-        required: true,
+        // required: true,
     },
-    urlImage: {
+    urlImageThumbnail: {
         type: String,
-        required: true,
-    },
-    thumbnail: {
-        type: String,
-        required: true,
+        // required: true,
     },
     productList: {
-        type: new mongoose.Schema({
-            title: {
-                type: String,
-                required: true,
+        type: [
+            {
+                name: {
+                    type: String,
+                    // required: true,
+                },
+                price: {
+                    type: Number,
+                    // required: true,
+                },
+                link: {
+                    type: String,
+                    // required: true,
+                },
             },
-            price: {
-                type: Number,
-                required: true,
-            },
-            link: {
-                type: String,
-                required: true,
-            },
-        }),
+        ],
+        required: true,
     },
     commentList: {
-        type: new mongoose.Schema({
-            name: {
-                type: String,
-                required: true,
-            },
-            comment: {
-                type: String,
-                required: true,
-            },
-        }, { timestamps: true}),
+        type: [
+            {
+                name: {
+                    type: String,
+                    required: true,
+                },
+                comment: {
+                    type: String,
+                    required: true,
+                },
+            }, { timestamps: true}
+        ],
     },
 }, { timestamps: true});
 
