@@ -1,12 +1,9 @@
-
 # Tokopedia Play (Backend Only)
 
 The Tokopedia Play Backend API is a RESTful API server made as a midterm assignment for GIGIH 3.0 Fullstack Track. It provides various endpoints to manage video thumbnail lists, product lists, comments, and the ability to submit comments for videos.
-
 ## Database Structure
 
 This system uses a NoSQL MongoDB database to store various data related to videos, products, and comments. All the data is stored in one collection, with productList and commentList stored as **embedded document** inside the video document. The schematic is as follows:
-
 
 - `_id`: ObjectId
 - `title`: String
@@ -25,7 +22,6 @@ This system uses a NoSQL MongoDB database to store various data related to video
   - `updatedAt`: Date
 - `createdAt`: Date
 - `updatedAt`: Date
-
 
 #### Schema Explanation
 The video collection stores information about various videos available on the platform. Each document represents a single video and includes details such as the video title, URL link to the video's thumbnail image, a URL link to the video, an array of associated products (productList), a list of comments (commentList), and a timestamp.
@@ -214,3 +210,6 @@ Start the server
 ```
 
 The API server will start running at `http://localhost:3000`. Use the specified endpoints to interact with the API and retrieve video thumbnail lists, product lists, and comments.
+
+## Additional Notes
+Database used in this project can be found in the `database` folder.
