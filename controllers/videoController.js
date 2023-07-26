@@ -5,7 +5,7 @@ const {getVideoListService, getProductListService, getCommentListService, addCom
 async function getVideo(req, res) {
     try {
         const videoList = await getVideoListService();
-        res.status(200).json(videoList);
+        res.status(200).json({"videoList": videoList});
     } catch (error) {
         res.status(500).json("Failed to get video list, Error Message : " + error.message);
     }
