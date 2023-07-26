@@ -1,0 +1,496 @@
+[{
+  "_id": {
+    "$oid": "64bfe2f02b70b6141c25c092"
+  },
+  "title": "Introducing the Aurora Collection",
+  "ImageThumbnailUrl": "https://i.ytimg.com/an_webp/iwitXoifi_E/mqdefault_6s.webp?du=3000&sqp=COj-_qUG&rs=AOn4CLDd7WuZQuewyJdl67B2MIqTNuBuGA",
+  "VideoUrl": "https://youtu.be/iwitXoifi_E",
+  "productList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c075"
+      },
+      "name": "Logitech G705 LIGHTSPEED Mouse Gaming Wireless Bluetooth",
+      "price": 1359000,
+      "link": "https://tokopedia.link/LGYmysvQIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c076"
+      },
+      "name": "Logitech G Gaming Mouse Pad (40 cm x 46 cm) - White",
+      "price": 319000,
+      "link": "https://tokopedia.link/wxmH9dQQIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c077"
+      },
+      "name": "Logitech G713 Keyboard Gaming Mechanical TKL RGB Lighting - Tactile",
+      "price": 2229000,
+      "link": "https://tokopedia.link/iqMPTlSQIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c078"
+      },
+      "name": "Logitech G715 Keyboard Gaming Wireless Bluetooth TKL RGB-Linear",
+      "price": 2549000,
+      "link": "https://tokopedia.link/OvnMEGTQIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c079"
+      },
+      "name": "Logitech G735 LIGHTSPEED Headset Gaming Wireless Bluetooth",
+      "price": 2759000,
+      "link": "https://tokopedia.link/gPq08NVQIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    }
+  ],
+  "commentList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c07a"
+      },
+      "userName": "Rizky",
+      "comment": "Video ini sangat bagus!",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c07b"
+      },
+      "userName": "John",
+      "comment": "Produknya keliahatan keren di video!",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c07c"
+      },
+      "userName": "Sarah",
+      "comment": "Video ini memberi saya banyak informasi baru",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-07-25T14:57:43.440Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-25T14:57:43.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bfe2f02b70b6141c25c093"
+  },
+  "title": "Razer | PUBG: BATTLEGROUNDS Collection",
+  "ImageThumbnailUrl": "https://i.ytimg.com/an_webp/1PEwVH29Yng/mqdefault_6s.webp?du=3000&sqp=CNDJ_qUG&rs=AOn4CLAq8l-NY6ld1rJ4JTLIBxvKjpw5ng",
+  "VideoUrl": "https://youtu.be/1PEwVH29Yng",
+  "productList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c07d"
+      },
+      "name": "Razer Huntsman V2 - PUBG Edition - Optical Switch Gaming Keyboard",
+      "price": 4299000,
+      "link": "https://tokopedia.link/E5nfgoARIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c07e"
+      },
+      "name": "Razer Barracuda X - PUBG Edition - Wireless Bluetooth Gaming Headset",
+      "price": 2339000,
+      "link": "https://tokopedia.link/85FiLSARIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    }
+  ],
+  "commentList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c07f"
+      },
+      "userName": "Andre",
+      "comment": "Video ini membuat saya tertarik untuk membeli produknya!",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c080"
+      },
+      "userName": "Max",
+      "comment": "Mantap bang",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c081"
+      },
+      "userName": "Windah",
+      "comment": "Sayangnya saya tidak bisa membeli produknya karena harganya mahal",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c082"
+      },
+      "userName": "Dimas",
+      "comment": "Sangat mantap!",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-07-25T14:57:43.440Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-25T14:57:43.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bfe2f02b70b6141c25c094"
+  },
+  "title": "Samsung Unpacked: Join the flip side takes over the world",
+  "ImageThumbnailUrl": "https://i.ytimg.com/vi/v4_JTT0AUIM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlo39Fq005rbT7FlZwWcAX1SIEpg",
+  "VideoUrl": "https://youtu.be/v4_JTT0AUIM",
+  "productList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c083"
+      },
+      "name": "Samsung Galaxy Z Fold4 5G 12/256GB",
+      "price": 21824000,
+      "link": "https://tokopedia.link/G5CSJl8RIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c084"
+      },
+      "name": "Samsung Galaxy Z Flip4 5G 8/512GB",
+      "price": 14549000,
+      "link": "https://tokopedia.link/4IQ4SlbSIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    }
+  ],
+  "commentList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c085"
+      },
+      "userName": "Rafathar",
+      "comment": "Video ini membuat saya ingin membeli samsung langsung",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-07-25T14:57:43.440Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-25T14:57:43.440Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bfe2f02b70b6141c25c095"
+  },
+  "title": "First-time Synology NAS Installation & Setup Guide",
+  "ImageThumbnailUrl": "https://i.ytimg.com/an_webp/PrVAehzT8Yk/mqdefault_6s.webp?du=3000&sqp=CPra_qUG&rs=AOn4CLBRoQrrmJLVXLHM7AuRRx3XiwWsGw",
+  "videoUrl": "https://youtu.be/PrVAehzT8Yk",
+  "productList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c086"
+      },
+      "name": "Synology DiskStation DS1522+ 8G 5-Bay NAS External Storage DS1522 plus",
+      "price": 13500000,
+      "link": "https://tokopedia.link/p78l91WSIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c087"
+      },
+      "name": "Synology DS118 DiskStation 1-Bay NAS Server Storage Cloud DS 118",
+      "price": 3100000,
+      "link": "https://tokopedia.link/qypGyVZSIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c088"
+      },
+      "name": "BeeDrive Personal Backup Hub by Synology - 1TB",
+      "price": 2499000,
+      "link": "https://tokopedia.link/911XUb3SIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    }
+  ],
+  "commentList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c089"
+      },
+      "userName": "Zara",
+      "comment": "Ini teknologi yang sangat bagus!",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c08a"
+      },
+      "userName": "Fani",
+      "comment": "Saya ingin membeli produknya!",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "userName": "Roseanneee",
+      "comment": "Mantap kali ini video",
+      "_id": {
+        "$oid": "64bff303dc827d0c3d27d4b0"
+      },
+      "createdAt": {
+        "$date": "2023-07-25T16:06:27.815Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T16:06:27.815Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-07-25T14:57:43.440Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-25T16:06:27.815Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "64bfe2f02b70b6141c25c096"
+  },
+  "title": "Your personal theme song and a Xiaomi gadget made a combo!",
+  "ImageThumbnailUrl": "https://i.ytimg.com/an_webp/mhQ5imY64Yc/mqdefault_6s.webp?du=3000&sqp=CPSM_6UG&rs=AOn4CLDoBchWqb7R6h4bvS4EntmzF2C0Jw",
+  "videoUrl": "https://youtu.be/mhQ5imY64Yc",
+  "productList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c08b"
+      },
+      "name": "XIAOMI OFFICIAL Xiaomi TV 43''A2-UHD Wifi Android TV™ Netflix Youtube",
+      "price": 3999000,
+      "link": "https://tokopedia.link/R9QGkFyTIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c08c"
+      },
+      "name": "XIAOMI OFFICIAL Xiaomi Smart Air Purifier 4 Compact",
+      "price": 1199000,
+      "link": "https://tokopedia.link/X2UZzXATIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c08d"
+      },
+      "name": "XIAOMI OFFICIAL Xiaomi Robot Vacuum E10 Daya Hisap 4000Pa Sapu dan Pel",
+      "price": 2499000,
+      "link": "https://tokopedia.link/tXtWFqETIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c08e"
+      },
+      "name": "XIAOMI OFFICIAL Xiaomi Smart Camera C200 1080p 360° Night Vision",
+      "price": 409000,
+      "link": "https://tokopedia.link/6HDw7YGTIBb",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    }
+  ],
+  "commentList": [
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c08f"
+      },
+      "userName": "Jennie",
+      "comment": "Saya ingin membeli produknya!",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c090"
+      },
+      "userName": "Jisoo",
+      "comment": "teknologinya sangat bagus!",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    },
+    {
+      "_id": {
+        "$oid": "64bfe2e72b70b6141c25c091"
+      },
+      "userName": "Lisa",
+      "comment": "sangat mempermudah hidup saya!",
+      "createdAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      },
+      "updatedAt": {
+        "$date": "2023-07-25T14:57:43.440Z"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2023-07-25T14:57:43.440Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-25T14:57:43.440Z"
+  }
+}]
