@@ -7,11 +7,11 @@ const videoSchema = new Schema({
         type: String,
         // required: true,
     },
-    ImageThumbnailUrl: {
+    imageThumbnailUrl: {
         type: String,
         // required: true,
     },
-    VideoUrl: {
+    videoUrl: {
         type: String,
         // required: true,
     },
@@ -28,6 +28,10 @@ const videoSchema = new Schema({
                         // required: true,
                     },
                     link: {
+                        type: String,
+                        // required: true,
+                    },
+                    imageLink: {
                         type: String,
                         // required: true,
                     },

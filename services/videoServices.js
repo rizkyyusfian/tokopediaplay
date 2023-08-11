@@ -3,7 +3,7 @@ const Video = require('../models/videoModel.js');
 // Get all video list
 async function getVideoListService() {
     try {
-        return await Video.find().select('ImageThumbnailUrl');
+        return await Video.find().select('title imageThumbnailUrl videoUrl');
     } catch (error) {
         throw new Error(error.message);
     };
@@ -13,7 +13,7 @@ async function getVideoListService() {
 // Get all product list based on video id
 async function getProductListService(videoId) {
     try {
-        return await Video.find({ _id: videoId }).select({ "productList._id": 1, "productList.name": 1, "productList.price": 1, "productList.link": 1, "_id": 0 });
+        return await Video.find({ _id: videoId }).select({ "productList._id": 1, "productList.name": 1, "productList.price": 1, "productList.link": 1, "productList.imageLink": 1 ,"_id": 0 });
     } catch (error) {
         throw new Error(error.message);
     }
