@@ -23,14 +23,14 @@ async function loginUserService(email, password) {
     try {
         const user = await User.findOne({ email: email });
         if (!user) {
-            return false; // User not found
+            return null; // User not found
         }
 
         const isPasswordMatch = await bcrypt.compare(password, user.password);
         if (isPasswordMatch) {
             return user; // Passwords match, return user
         } else {
-            return false; // Passwords don't match
+            return null; // Passwords don't match
         }
     } catch (error) {
         throw new Error(error.message);
