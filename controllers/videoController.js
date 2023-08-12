@@ -1,4 +1,4 @@
-const {getVideoListService, getProductListService, getCommentListService, addCommentService} = require('../services/videoServices.js');
+const {getVideoListService, getProductListService, getCommentListService, addCommentService, searchVideoService} = require('../services/videoServices.js');
 
 
 // Get all video list
@@ -45,4 +45,15 @@ async function addComment(req, res) {
     }
 };
 
-module.exports = { getVideo, getProduct, getComment, addComment };
+// Search video based on keyword
+async function searchVideo(req, res) {
+    try {
+        const keyword = req.query.q;
+        const videoList = await searchVideoService(keyword);
+        res.status(200).json({"videoList": videoList});
+    } catch (error) {
+        res.status(500).json("Failed to search video, Error Message: " + error.message);
+    }
+};
+
+module.exports = { getVideo, getProduct, getComment, addComment, searchVideo };

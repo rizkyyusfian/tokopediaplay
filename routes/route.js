@@ -15,6 +15,9 @@ router.get('/comment/:videoId', videoController.getComment);
 // Route for adding comment based on video id
 router.post('/comment/:videoId', videoController.addComment);
 
+// Route for searching video based on keyword
+router.get('/search', videoController.searchVideo);
+
 // Route for user registration
 router.post('/register', UserControllers.registerUser);
 

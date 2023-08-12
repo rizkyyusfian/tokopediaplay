@@ -64,4 +64,14 @@ async function addCommentService(videoId, userName, comment) {
     }
 };
 
-module.exports = { getVideoListService, getProductListService, getCommentListService, addCommentService };
+// Search video based on keyword
+async function searchVideoService(keyword) {
+    try {
+        // return await Video.find({ $text: { $search: keyword } }).select('title imageThumbnailUrl videoUrl');
+        return results = await Video.find({ $or: [{ title: { $regex: keyword, $options: 'i' } }, { description: { $regex: keyword, $options: 'i' } }] });
+    } catch (error) {
+        throw new Error(error.message);
+    }
+};
+
+module.exports = { getVideoListService, getProductListService, getCommentListService, addCommentService, searchVideoService };
