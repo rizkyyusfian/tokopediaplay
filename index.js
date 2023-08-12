@@ -6,6 +6,7 @@ const mongoString = process.env.DATABASE_URL;
 const bodyParser = require('body-parser');
 const route = require('./routes/route.js');
 const cors = require('cors');
+const path = require('path');
 
 // Connect to database
 mongoose.connect(mongoString);
@@ -19,6 +20,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
+app.use('/public/', express.static(path.join(__dirname, 'public')));
 app.use('/', route);
 
 app.listen(process.env.PORT, () => {
