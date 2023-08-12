@@ -2,7 +2,7 @@ const User = require('../models/userModel');
 const bcrypt = require('bcrypt');
 
 // Register user
-async function registerUserService(userName, email, password) {
+async function registerUserService(userName, email, password, profilePicture) {
     try {
         const salt = await bcrypt.genSalt(10);
         const passwordHash = await bcrypt.hash(password, salt);
@@ -10,6 +10,7 @@ async function registerUserService(userName, email, password) {
             userName: userName,
             email: email,
             password: passwordHash,
+            profilePicture: profilePicture
         });
         return await newUser.save();
     }

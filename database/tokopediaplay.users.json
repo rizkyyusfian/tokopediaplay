@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "64d718530a01d62526ddc388"
+  },
+  "userName": "Lisa",
+  "email": "lisa@gmail.com",
+  "password": "$2b$10$N1ehap9r.3D4xeRwe9SxBuRylrQrtY/NG1nWySv6QbMLz.U4Mbpn6",
+  "profilePicture": "http://localhost:8000/public/images/profilepicture/foto1.jpeg",
+  "createdAt": {
+    "$date": "2023-08-12T05:27:47.343Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-12T05:27:47.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d718820a01d62526ddc38a"
+  },
+  "userName": "Windah Basudara",
+  "email": "windah@gmail.com",
+  "password": "$2b$10$a0fkurIMeAtDAmuORMmW2eoFQxJQpGGEcKKafuJC1lEoAQNyOcpIe",
+  "profilePicture": "http://localhost:8000/public/images/profilepicture/foto2.jpeg",
+  "createdAt": {
+    "$date": "2023-08-12T05:28:34.674Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-12T05:28:34.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64d718990a01d62526ddc38c"
+  },
+  "userName": "Sammy Sam Samsom",
+  "email": "sammy@gmail.com",
+  "password": "$2b$10$ib5P/EosAnnuq1lYB.2y0eSetttq3zc.hlsjZ0tqto5hWCyXXd5ue",
+  "profilePicture": "http://localhost:8000/public/images/profilepicture/foto3.jpeg",
+  "createdAt": {
+    "$date": "2023-08-12T05:28:57.199Z"
+  },
+  "updatedAt": {
+    "$date": "2023-08-12T05:28:57.199Z"
+  },
+  "__v": 0
+}]
