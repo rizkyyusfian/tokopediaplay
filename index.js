@@ -2,8 +2,8 @@ require('dotenv').config();
 
 const express = require('express');
 const mongoose = require('mongoose');
-const mongoString = process.env.DATABASE_URL;
-// const mongoString = process.env.DATABASE_URL_ATLAS;
+// const mongoString = process.env.DATABASE_URL;
+const mongoString = process.env.DATABASE_URL_ATLAS;
 const bodyParser = require('body-parser');
 const route = require('./routes/route.js');
 const cors = require('cors');
