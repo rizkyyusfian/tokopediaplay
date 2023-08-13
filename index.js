@@ -24,6 +24,6 @@ app.use(cors());
 app.use('/public/', express.static(path.join(__dirname, 'public')));
 app.use('/', route);
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 3000 || 6509, () => {
     console.log(`Server is running on port ${process.env.PORT}`)
 });
